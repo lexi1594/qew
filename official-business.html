@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official Business Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Official Business Form</h1>
+        <p>Security Copy & HRDCopy</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Back to Home</a></li>
+                <li><a href="page2.html">Back to Menu</a></li>   
+                <li><a href="timekeeping.html">Back to Forms</a></li>  
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="late-arrival-form">
+            <form id="late-arrival" action="#" method="post">
+                <div class="form-group">
+                    <label for="employee-name">Employee:</label>
+                    <input type="text" id="employee-name" name="employee-name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="date-filed">Date Filed:</label>
+                    <input type="date" id="date-filed" name="date-filed" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="position">Position:</label>
+                    <input type="text" id="position" name="position" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="employee-id">I.D No.:</label>
+                    <input type="text" id="employee-id" name="employee-id" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="department">Department:</label>
+                    <input type="text" id="department" name="department" required>
+                </div>
+                <div class="form-group">
+                    <label for="destination">Destination:</label>
+                    <input type="text" id="destination" name="destination" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="purpose">Purpose of O.B:</label>
+                    <textarea id="purpose" name="purpose" rows="3" required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="from">From:</label>
+                    <input type="date" id="from" name="from" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="to">To:</label>
+                    <input type="date" id="to" name="to" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="departure-time">Departure Time:</label>
+                    <input type="time" id="departure-time" name="departure-time" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="total-hrs">Total Hrs. of O.B:</label>
+                    <input type="number" id="total-hrs" name="total-hrs" step="0.01" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="requested-by">Requested by:</label>
+                    <input type="text" id="requested-by" name="requested-by" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="approved-by">Approved by:</label>
+                    <input type="text" id="approved-by" name="approved-by" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="received-by">Received by:</label>
+                    <input type="text" id="received-by" name="received-by" required>
+                </div>
+
+                <div class="form-group signatures">
+                    <div>
+                        <label for="employee-signature">Employee Signature:</label>
+                        <input type="text" id="employee-signature" name="employee-signature" required>
+                    </div>
+                    
+                    <div>
+                        <label for="supervisor-signature">Supervisor/Manager Signature:</label>
+                        <input type="text" id="supervisor-signature" name="supervisor-signature" required>
+                    </div>
+                    
+                    <div>
+                        <label for="operation-manager-signature">Operation Manager Signature:</label>
+                        <input type="text" id="operation-manager-signature" name="operation-manager-signature" required>
+                    </div>
+                    
+                    <div>
+                        <label for="hr-officer-signature">HR Officer Signature:</label>
+                        <input type="text" id="hr-officer-signature" name="hr-officer-signature" required>
+                    </div>
+
+                <div class="form-group">
+                    <button type="submit">Submit Official Business Request</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Wise Immigration and Study Services Inc.</p>
+    </footer>
+</body>
+</html>

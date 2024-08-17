@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass Slip Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Employee's Pass Slip Form</h1>
+        <p>WI-15HRD-PS-2024-405</p>
+        <p>WI-15HRD-PS-2024-406</p>
+        <p>WI-15HRD-PS-2024-407</p>
+        <p>WI-15HRD-PS-2024-408</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Back to Home</a></li>
+                <li><a href="page2.html">Back to Menu</a></li>   
+                <li><a href="timekeeping.html">Back to Forms</a></li>  
+            </ul>
+        </nav>
+    </header>
+
+    <div class="form-container">
+        <form id="passslip-form" action="#" method="post">
+            <div class="form-group">
+                <label for="employee-no">Employee No.:</label>
+                <input type="text" id="employee-no" name="employee-no" required>
+            </div>
+
+            <div class="form-group">
+                <label for="employee-name">Name of Employee:</label>
+                <input type="text" id="employee-name" name="employee-name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="signature">Signature:</label>
+                <input type="text" id="signature" name="signature" required>
+            </div>
+
+            <div class="form-group">
+                <label for="position">Position:</label>
+                <input type="text" id="position" name="position" required>
+            </div>
+
+            <div class="form-group">
+                <label for="group-dept-branch">Group/Dept./Branch:</label>
+                <input type="text" id="group-dept-branch" name="group-dept-branch" required>
+            </div>
+
+            <div class="form-group">
+                <label for="date-applied">Date Applied:</label>
+                <input type="date" id="date-applied" name="date-applied" required>
+            </div>
+
+            <div class="form-section">
+                <div class="form-column">
+                    <label for="morning-selection">Morning:</label>
+                    <select id="morning-selection" name="morning-selection">
+                        <option value="forgot-swipe">Forgot to Swipe/Log</option>
+                        <option value="official-business">Official Business</option>
+                        <option value="comp-time-off">Compensatory Time-Off</option>
+                    </select>
+                </div>
+                <div class="form-column">
+                    <label for="afternoon-selection">Afternoon:</label>
+                    <select id="afternoon-selection" name="afternoon-selection">
+                        <option value="forgot-swipe">Forgot to Swipe/Log</option>
+                        <option value="official-business">Official Business</option>
+                        <option value="comp-time-off">Compensatory Time-Off</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="reason-purpose">Reason/Purpose:</label>
+                <input type="text" id="reason-purpose" name="reason-purpose" required>
+            </div>
+
+            <div class="form-group">
+                <label for="destinations">Destination/s:</label>
+                <input type="text" id="destinations" name="destinations" required>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Submit Pass Slip Request</button>
+            </div>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; Wise Immigration and Study Services Inc.</p>
+</footer>
+</body>
+</html>
+

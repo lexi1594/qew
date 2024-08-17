@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Late Arrival Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Employee Late Arrival Form</h1>
+        <p>WI-17HRD-LA-2024-01</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Back to Home</a></li>
+                <li><a href="page2.html">Back to Menu</a></li>   
+                <li><a href="timekeeping.html">Back to Forms</a></li>  
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="late-arrival-form">
+            <form id="late-arrival" action="#" method="post">
+                <div class="form-group">
+                    <label for="employee-name">Employee:</label>
+                    <input type="text" id="employee-name" name="employee-name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="date-filed">Date Filed:</label>
+                    <input type="date" id="date-filed" name="date-filed" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="position">Position:</label>
+                    <input type="text" id="position" name="position" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="employee-id">I.D No.:</label>
+                    <input type="text" id="employee-id" name="employee-id" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="department">Department:</label>
+                    <input type="text" id="department" name="department" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="late-date">Date:</label>
+                    <input type="date" id="late-date" name="late-date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="time-in">Time In:</label>
+                    <input type="time" id="time-in" name="time-in" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="reason">Please state the reason for being late for work:</label>
+                    <textarea id="reason" name="reason" rows="3" required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <p class="justified-text">Remarks: A late arrival form should be filled out if you arrive 30 minutes late. Please submit it immediately after having it signed by your superior to avoid sanctions. File an ALA Form if you arrive at or after 10:30 a.m.</p>
+                </div>                
+
+                <div class="form-group">
+                    <label for="prepared-by">Prepared by:</label>
+                    <input type="text" id="prepared-by" name="prepared-by" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="notified-by">Notified by:</label>
+                    <input type="text" id="notified-by" name="notified-by" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="received-by">Received by:</label>
+                    <input type="text" id="received-by" name="received-by" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="employee-signature">Employee's Signature:</label>
+                    <input type="text" id="employee-signature" name="employee-signature" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="employee-signature-print">Over Printed Name:</label>
+                    <input type="text" id="employee-signature-print" name="employee-signature-print" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="manager-signature">Manager/Supervisor Signature:</label>
+                    <input type="text" id="manager-signature" name="manager-signature" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="hr-signature">HR Officer Signature:</label>
+                    <input type="text" id="hr-signature" name="hr-signature" required>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Submit Late Arrival Form</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Wise Immigration and Study Services Inc.</p>
+    </footer>
+</body>
+</html>
+

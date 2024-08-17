@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Branch Transfer Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Branch Transfer Form</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Back to Home</a></li>
+                <li><a href="page2.html">Back to Menu</a></li>   
+                <li><a href="timekeeping.html">Back to Forms</a></li>  
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="branch-transfer-form">
+            <form id="branch-transfer" action="#" method="post">
+                <h2>Employee Information:</h2>
+                <div class="form-group">
+                    <label for="employee-name">Employee Name:</label>
+                    <input type="text" id="employee-name" name="employee-name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="employee-id">Employee ID:</label>
+                    <input type="text" id="employee-id" name="employee-id" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="current-branch">Current Branch:</label>
+                    <input type="text" id="current-branch" name="current-branch" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="transfer-to">Transfer to:</label>
+                    <input type="text" id="transfer-to" name="transfer-to" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="transfer-date">Transfer Date:</label>
+                    <input type="date" id="transfer-date" name="transfer-date" required>
+                </div>
+                
+                <div class="form-group">
+                    <h2>
+                    <label for="reason-type">Reason for transfer:</label>
+                    </h2>
+                    <select id="reason-type" name="reason-type" required>
+                        <option value="employee-reason">Employee Request</option>
+                        <option value="business-reason">Business Needs</option>
+                    </select>
+                </div>
+                
+               
+                <div class="form-group">
+                    <label for="other">Other (please specify):</label>
+                    <input type="text" id="other-specify" name="other-specify">
+                </div>
+                
+                <h2>Supervisor/Manager Approval:</h2>
+                <div class="form-group">
+                    <label for="supervisor-name">Supervisor/Manager Name:</label>
+                    <input type="text" id="supervisor-name" name="supervisor-name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="supervisor-signature">Supervisor/Manager Signature:</label>
+                    <input type="text" id="supervisor-signature" name="supervisor-signature" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="supervisor-date">Date:</label>
+                    <input type="date" id="supervisor-date" name="supervisor-date" required>
+                </div>
+                
+                <h2>HR Department Approval:</h2>
+                <div class="form-group">
+                    <label for="hr-representative-name">HR Representative Name:</label>
+                    <input type="text" id="hr-representative-name" name="hr-representative-name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="hr-representative-signature">HR Representative Signature:</label>
+                    <input type="text" id="hr-representative-signature" name="hr-representative-signature" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="hr-date">Date:</label>
+                    <input type="date" id="hr-date" name="hr-date" required>
+                </div>
+                
+                <h2>New Branch Assign Information:</h2>
+                <div class="form-group">
+                    <label for="branch-address">Branch Address:</label>
+                    <input type="text" id="branch-address" name="branch-address" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="branch-contact">Branch Contact:</label>
+                    <input type="text" id="branch-contact" name="branch-contact" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="branch-phone">Branch Phone:</label>
+                    <input type="text" id="branch-phone" name="branch-phone" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="branch-email">Branch Email:</label>
+                    <input type="email" id="branch-email" name="branch-email" required>
+                </div>
+                
+                <h2>Employee Acknowledgment:</h2>
+                <div class="form-group">
+                    <label for="employee-signature">Employee Signature:</label>
+                    <input type="text" id="employee-signature" name="employee-signature" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="employee-date">Date:</label>
+                    <input type="date" id="employee-date" name="employee-date" required>
+                </div>
+                
+                <h2>Note:</h2>
+                <div class="form-group">
+                    <p class="justified-text">This transfer is subject to review until further notice.</p>
+                    <p class="justified-text">The terms and conditions of employment, including compensation and benefits, remain unchanged unless otherwise stated.</p>
+                    <p class="justified-text">Failure to comply with the branch’s policies and expectations may result in disciplinary action.</p>
+                </div>
+                
+                
+                <h2>For HR Use Only:</h2>
+                <div class="form-group">
+                    <label for="transfer-type">Transfer Type:</label>
+                    <select id="transfer-type" name="transfer-type" required>
+                        <option value="temporary-to-permanent">Temporary to Permanent</option>
+                        <option value="temporary-to-original-branch">Temporary to Original Branch</option>
+                        <option value="temporary-extension">Temporary Extension</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="transfer-start-date">Transfer Start Date:</label>
+                    <input type="date" id="transfer-start-date" name="transfer-start-date" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="transfer-end-date">Transfer End Date:</label>
+                    <input type="date" id="transfer-end-date" name="transfer-end-date">
+                </div>
+                
+                <div class="form-group">
+                    <label for="comments">Comments/Notes:</label>
+                    <textarea id="comments" name="comments" rows="3"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Submit Branch Transfer Request</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Wise Immigration and Study Services Inc.</p>
+    </footer>
+</body>
+</html>
+

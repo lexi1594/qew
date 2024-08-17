@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 250px;
+  background-color: #003366;
+  color: white;
+  height: 100vh;
+  position: fixed;
+}
+
+.sidebar .logo-container img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.sidebar ul li {
+  margin: 20px 0;
+}
+
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  transition: background 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+  background-color: #2980b9;
+}
+
+/* Main content styles */
+.main-content {
+  margin-left: 250px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+  background-color: #003366;
+  color: #fff;
+  position: relative;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile span {
+  margin-right: 10px;
+}
+
+.user-profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* Form Links */
+.form-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.form-links ul li {
+  margin: 15px 0;
+}
+
+.form-links ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #00509e;
+  padding: 10px;
+  display: block;
+  border: 1px solid #00509e;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+}
+
+.form-links ul li a:hover {
+  background-color: #00509e;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  position: relative;
+  width: 100%;
+  margin-top: 2em;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .main-content {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+  .form-links ul li a {
+    font-size: 16px;
+  }
+}
